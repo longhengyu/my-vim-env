@@ -94,3 +94,13 @@ set whichwrap=b,s,<,>,[,]
 
 filetype plugin indent on
 " 分为三部分命令：file on, file plugin on, file indent on.分别表示自动识别文件类型，用文件类型脚本，使用缩进定义文件。
+
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+"set tags=~/.tags
+" taglist
+
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr>
+" windows manager
