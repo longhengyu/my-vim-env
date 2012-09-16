@@ -104,3 +104,6 @@ let Tlist_Exit_OnlyWindow=1
 let g:winManagerWindowLayout='FileExplorer|TagList'
 nmap wm :WMToggle<cr>
 " windows manager
+
+set pastetoggle=<F2>
+"代码粘贴的时候，关掉自动缩进
